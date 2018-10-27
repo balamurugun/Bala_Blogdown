@@ -2,40 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Cocoa Enhanced</title>
-    <link>/post/</link>
+    <link>https://balamurugan.netlify.com/post/</link>
     <description>Recent content in Post on Cocoa Enhanced</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 27 Oct 2018 11:39:34 +0530</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://balamurugan.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018 10 27 Hello World</title>
-      <link>/post/2018-10-27-hello-world/</link>
+      <link>https://balamurugan.netlify.com/post/2018-10-27-hello-world/</link>
       <pubDate>Sat, 27 Oct 2018 11:39:34 +0530</pubDate>
       
-      <guid>/post/2018-10-27-hello-world/</guid>
+      <guid>https://balamurugan.netlify.com/post/2018-10-27-hello-world/</guid>
       <description>##Hello World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/_book/including-plots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/_book/including-plots/</guid>
-      <description>Hello R Markdowndiv.sourceCode { overflow-x: auto; }table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {margin: 0; padding: 0; vertical-align: baseline; border: none; }table.sourceCode { width: 100%; line-height: 100%; }td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }td.sourceCode { padding-left: 5px; }code  span.kw { color: #007020; font-weight: bold; } /* Keyword */code  span.dt { color: #902000; } /* DataType */code  span.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/_book/r-markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/_book/r-markdown/</guid>
-      <description>Hello R Markdowndiv.sourceCode { overflow-x: auto; }table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {margin: 0; padding: 0; vertical-align: baseline; border: none; }table.sourceCode { width: 100%; line-height: 100%; }td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }td.sourceCode { padding-left: 5px; }code  span.kw { color: #007020; font-weight: bold; } /* Keyword */code  span.dt { color: #902000; } /* DataType */code  span.</description>
     </item>
     
   </channel>
