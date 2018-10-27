@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Cocoa Enhanced</title>
+    <title>Tags on BALAMURUGAN PERIYASAMY</title>
     <link>/tags/tags/</link>
-    <description>Recent content in Tags on Cocoa Enhanced</description>
+    <description>Recent content in Tags on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 27 Oct 2018 11:39:34 +0530</lastBuildDate>
@@ -17,15 +17,6 @@
       <pubDate>Sat, 27 Oct 2018 11:39:34 +0530</pubDate>
       
       <guid>/blog/2018-10-27-hello-world/</guid>
-      <description>##Hello World</description>
-    </item>
-    
-    <item>
-      <title>2018 10 27 Hello World</title>
-      <link>/post/2018-10-27-hello-world/</link>
-      <pubDate>Sat, 27 Oct 2018 11:39:34 +0530</pubDate>
-      
-      <guid>/post/2018-10-27-hello-world/</guid>
       <description>##Hello World</description>
     </item>
     
