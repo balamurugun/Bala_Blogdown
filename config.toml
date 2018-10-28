@@ -8,7 +8,7 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Bala"
 title = "BALAMURUGAN PERIYASAMY"
-disqusshortname = ""
+disqusshortname = "Comments"
 pluralizelisttitles = false
 
 [permalinks]
