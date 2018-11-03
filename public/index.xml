@@ -2,70 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BALAMURUGAN PERIYASAMY</title>
-    <link>/</link>
+    <link>https://balamurugan.netlify.com/</link>
     <description>Recent content on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Oct 2018 11:39:34 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 03 Nov 2018 21:59:04 +0530</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://balamurugan.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>How to do too good to be ignored Data Science</title>
+      <link>https://balamurugan.netlify.com/blog/how-to-do-too-good-to-be-ignored-data-science/</link>
+      <pubDate>Sat, 03 Nov 2018 21:59:04 +0530</pubDate>
+      
+      <guid>https://balamurugan.netlify.com/blog/how-to-do-too-good-to-be-ignored-data-science/</guid>
+      <description>Data science is the art of converting business problem to data problem to data solution to business solution as a quote goes.
+Doing sophisticated Data science work sincerely and removing the expectations of result will not help. Data science should aim for atleast one of the below: 1) Increase revenue 2) Reduce cost 3) Better forecast 4) Remove complexity 5) Help someone to do these effectively with analysis
+Above all one should garner the respect of the stakeholders</description>
+    </item>
+    
+    <item>
       <title>2018 10 27 Hello World</title>
-      <link>/blog/2018-10-27-hello-world/</link>
+      <link>https://balamurugan.netlify.com/blog/2018-10-27-hello-world/</link>
       <pubDate>Sat, 27 Oct 2018 11:39:34 +0530</pubDate>
       
-      <guid>/blog/2018-10-27-hello-world/</guid>
+      <guid>https://balamurugan.netlify.com/blog/2018-10-27-hello-world/</guid>
       <description>##Hello World</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://balamurugan.netlify.com/about/</link>
       <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://balamurugan.netlify.com/about/</guid>
       <description>With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end.
 Along with Ford Prefect, Dent barely escapes the Earth&amp;rsquo;s destruction as it is demolished to make way for a hyperspace bypass. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/projects/projects/</link>
+      <link>https://balamurugan.netlify.com/projects/projects/</link>
       <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
-      <guid>/projects/projects/</guid>
+      <guid>https://balamurugan.netlify.com/projects/projects/</guid>
       <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&amp;rsquo;t want something.
 A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>/blog/creating-a-new-theme/</link>
+      <link>https://balamurugan.netlify.com/blog/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>/blog/creating-a-new-theme/</guid>
+      <guid>https://balamurugan.netlify.com/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>/home/</link>
+      <link>https://balamurugan.netlify.com/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/</guid>
+      <guid>https://balamurugan.netlify.com/home/</guid>
       <description>This is the home page. It will display the blog section if there is one, and a text before.
 Hey ! Welcome to the Cocoa Enhanced theme. Here are some articles :</description>
     </item>
     
     <item>
       <title>License</title>
-      <link>/license/</link>
+      <link>https://balamurugan.netlify.com/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/license/</guid>
+      <guid>https://balamurugan.netlify.com/license/</guid>
       <description>You can use this page to put a license on the contents of your blog, like so:
  The MIT License (MIT)
 Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com

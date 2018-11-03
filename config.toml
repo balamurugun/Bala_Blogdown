@@ -10,6 +10,7 @@ author = "Bala"
 title = "BALAMURUGAN PERIYASAMY"
 disqusshortname = "Balaa"
 pluralizelisttitles = false
+relativeurls = true
 
 [permalinks]
 blog = "blog/:slug/"
@@ -31,7 +32,7 @@ share = true
 latestpostcount = 5
 github = "example"
 email = "you@example.com"
-linkedin = "john-example-aa80ue8èd
+linkedin = "john-example-aa80ue8èd"
 twitter = "example"
 facebook = "facebook_id"
 instagram = "instagram_id"
