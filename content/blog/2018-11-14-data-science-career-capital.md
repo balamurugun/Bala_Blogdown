@@ -1,7 +1,7 @@
 +++
 title = 'Data Science Career Capital'
 date = 2018-11-14T23:02:02+05:30
-draft = true
+draft = false
 tags = ["tags"]
 description = "Desc"
 
