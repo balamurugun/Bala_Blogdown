@@ -6,10 +6,19 @@
     <description>Recent content on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 20 Nov 2018 22:45:20 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to test stastical significance?</title>
+      <link>/post/statsignificance/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/statsignificance/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Excel</title>

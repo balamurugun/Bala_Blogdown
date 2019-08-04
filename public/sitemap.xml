@@ -4,7 +4,18 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-11-20T22:45:20+05:30</lastmod>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/statsignificance/</loc>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
