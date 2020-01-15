@@ -3,97 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resume/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/datascience/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/datascience/learnings-pbs-kids/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/datascience/xgboost-intro/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>/datascience/statlearning/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/xgboost-intro/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>/datascience/statsignificance/</loc>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/statlearning/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/statlearning/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/statsignificance/</loc>
-    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/statsignificance/</loc>
-    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/excel/</loc>
-    <lastmod>2018-11-20T22:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-11-20T22:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tags/</loc>
-    <lastmod>2018-11-20T22:45:20+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/data-science-career-capital/</loc>
-    <lastmod>2018-11-14T23:02:02+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/how-to-do-too-good-to-be-ignored-data-science/</loc>
-    <lastmod>2018-11-03T21:59:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/2018-10-27-hello-world/</loc>
-    <lastmod>2018-10-27T11:39:34+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2015-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
     <lastmod>2015-08-19T20:29:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/projects/</loc>
+    <loc>/blog/projects/</loc>
     <lastmod>2015-08-19T20:29:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/statsignificance/</loc>
+    <loc>/datascience/statsignificance/</loc>
     <priority>0</priority>
   </url>
   
@@ -107,6 +67,10 @@
   
   <url>
     <loc>/license/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

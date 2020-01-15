@@ -1,6 +1,6 @@
 +++
 date = "2020-01-15"
-title = "About"
+title = "Resume"
 +++
 
 _I am a Datascientist trying to get hold on insight and predictions._

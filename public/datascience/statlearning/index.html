@@ -14,24 +14,24 @@
 <meta property="og:site_name" content="BALAMURUGAN PERIYASAMY" />
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/home/" />
-<meta property="og:title" content="Home" />
-<meta property="twitter:title" content="Home">
+<meta property="og:url" content="/datascience/statlearning/" />
+<meta property="og:title" content="StatLearning with Zero Code and Equation" />
+<meta property="twitter:title" content="StatLearning with Zero Code and Equation">
 
-    <meta property="og:image" content="/img/banner.png">
+    <meta property="og:image" content="//images/image.jpg">
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:image" content="/img/banner.png">
+    <meta property="twitter:image" content="//images/image.jpg">
 
-<meta property="og:description" content="">
-<meta property="twitter:description" content="">
+<meta property="og:description" content="Desc">
+<meta property="twitter:description" content="Desc">
 
 <title>
 
 
-     BALAMURUGAN PERIYASAMY - Home 
+     BALAMURUGAN PERIYASAMY - StatLearning with Zero Code and Equation 
 
 </title>
-<link rel="canonical" href="../home/">
+<link rel="canonical" href="../../datascience/statlearning/">
 
 
 <style media="screen">
@@ -1057,7 +1057,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
 <link rel="shortcut icon"
 
-    href="../img/logo.png"
+    href="../../img/logo.png"
 
 >
 
@@ -1074,33 +1074,33 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
     <div class="container">
         
-        <a href="../"><img class="logo" src="../img/logo.png" alt="logo"></a>
+        <a href="../../"><img class="logo" src="../../img/logo.png" alt="logo"></a>
         
         <div class="content">
-            <a href="../"><div class="name"><h1>BALAMURUGAN PERIYASAMY</h1></div></a>
+            <a href="../../"><div class="name"><h1>BALAMURUGAN PERIYASAMY</h1></div></a>
             <nav>
                 <ul>
                     
                     
                         
                             
-                            <li><a href="../datascience">DataScience</a></li>
+                            <li><a href="../../datascience">DataScience</a></li>
                             
                         
                     
                         
                             
-                            <li><a href="../blog">Blog</a></li>
+                            <li><a href="../../blog">Blog</a></li>
                             
                         
                     
                     
                         
-                            <li><a href="../about/">About</a></li>
+                            <li><a href="../../about/">About</a></li>
                         
                     
                         
-                            <li><a href="../resume/">Resume</a></li>
+                            <li><a href="../../resume/">Resume</a></li>
                         
                     
                         
@@ -1121,7 +1121,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             <div class="page-heading">
 
     
-    Home
+    StatLearning with Zero Code and Equation
     
 
 </div>
@@ -1129,8 +1129,88 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             <div class="markdown">
                 
     
-    <p><em>This is the home page. It will display the blog section if there is one, and a text before.</em></p>
-<p>Hey ! Welcome to the Balamurugan's Blog</p>
+    <p>My aim over this course is to provide notes on course Stastical Learning with no code or equation.</p>
+<p>Introduction to Regression models</p>
+<p>#Overview of Statistical Learning</p>
+<p>Let us set out to predict Salary(Y) based on Experience, Education and Martial Status(really?)(Bunch of Xs)
+Regression equation is defined as function of these features plus an error value which is not captured by the model. Bearuty of regression is Obviousoly  to reduce the error rate for any new predction and/or define the existing relation between feature and target.</p>
+<p>##Regression Function
+Ideal function which gives the exact average of Y at each point of X.
+Regression Function aim is to reduce the mean squared error and make prediction to look good. Wait what is Mean Squared Error? Sum of squares of predictions and actuals.</p>
+<p>In few words, Regression Function is the ideal/optimal predictor of Y.</p>
+<p>###Irreducible Error, called Epsilons
+Since for same X, multiple Y values exists, never Regression function can equal Y. this difference is Ireducible Error.Similar to a manger cant keep all his juniors happy.
+But still regression function does good job on average :)</p>
+<p>How to compute y when there is no X? copy the average of the neighbour. this is nearest neigbhourhood averaging.</p>
+<p>##Curse of Dimensionality
+Neighbourhood estiamtes doesnt work well for large dimensions eg: hypercube with 5% boundary has 99% of the points as neighbour.Will be less local as we want to go further</p>
+<p>Is this like a student trying to copy answers from too many smart students sitting adjacent but writing different answer to same question?</p>
+<p>So how to escape,here comes the linear models.
+Linear models have a coefficient for each predictor and tries provide better fitting.
+Quadratic is even better for fit in some cases fro single dimension</p>
+<p>Similarly in mutli dimension, thin spline goes through more points than linear model and does over fitting</p>
+<p>So trades offs between
+Prediction vs Interpretability, think thin spline vs linear moder
+Good fit vs Over fit/under fit</p>
+<p>So remeber flexibility vs Interpretability. one end is subset/lasso/linear regression, other end is Bagging/Boosting/SVMs.</p>
+<p>###Assessing Model Accuracy
+How to find which model is adequate and accurate?
+Do a average squared error on the training data. But don. Over fit data can cheat. So do on a fresh test set.</p>
+<p>##Bias Variance Trade off
+What is flexibility?
+Ability to fit to different data. So more Flexibility leads to more variancee.</p>
+<p>###Classification
+how to measure classifcation effectivness?
+Measure average number of mistakes</p>
+<p>What is  decision boundry?
+Contour where both probabilities are equal</p>
+<p>How does base classifier work for KNN?
+Draw a circle, average nearest points and go with them. Make k bigger, decision bonray smppht</p>
+<p>What is the bias variance trade off for classifiers?</p>
+<p>Flexible statistical learning method  is a student who reads too many topics but nothing deep. eg: spline
+Non flexible statistical learning method is a student who reads very few topics but deep. eg:Linear regression</p>
+<p>#Linear Regression
+Linear regression simple but effective</p>
+<ol>
+<li>finding the strength</li>
+<li>predicitng relation</li>
+</ol>
+<p>Equation is created to minimize the least square errors, that is the error between actual and estimate at each point</p>
+<p>How to measure relation?
+check out what the intercepts(beta2) and slope(beta1) are.</p>
+<p>What does 95% confidence intervals mean?
+Range which contains true value with 95% confidence. so take estimate of slope and twice(1.96) the Standard error(asuuming errors are distributed normally)</p>
+<p>##Hypothesis testing</p>
+<p>Also on linear regression, we will be able to t-test whether the relation is significant(p&gt;5%) or not.
+T-stastic on intercept says what happens to sales if budget is zero.
+T-stastic on intercept says what is the relation between tv budget and sales</p>
+<p>Null Hypothesis says Beta2 is  zero, no relation between X and Y
+Alternate hypothesis  says B2 is bti zero.But this measures only nonzero association.</p>
+<p>How to check the accuracy of the model?
+R2(R-squared) is nothing but variance that can be explained with the fitted model.
+RSS is square of standard error si the unexplained variance or variance of the model's errors
+TSS is total variance of the data
+Variance explained is the left over of the proportion of unexplained variance by total variance of the data
+R2 als equal simple squared co-relation between variable and predictor.</p>
+<p>So, what is a good Rsquared value&hellip;depends on the domain</p>
+<p>#Multi-Linear Regression
+Y = Beta0 +Beta1X1 +Beta2X2+Beta3X3+&hellip;.
+Wrong definition:
+How one varibale predicts the outcome when all other variables are zero</p>
+<p>Are there any  usefule indicators explaining the impact on outcome?
+check R2 the variance and p value of F stastics</p>
+<p>What are the variables to include?
+Calculate all possible subsets and pick the best one..kidding p=40 has billion subsets (2^40)
+Go to Automate apporach</p>
+<ol>
+<li>Forward selection</li>
+<li>Backward selection - Remove leadt significant</li>
+</ol>
+<p>##How to model qualitiative predictors?
+For K levles, add k-1 dummy variables with a baseline.
+RSS of the model doesnt change based on baseline however p value changes.</p>
+<p>##Interaction
+How to find out</p>
 
 
             </div>
@@ -1149,7 +1229,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
         
             
-                <a href="../license">Copyright © 2020 Balamurugan Periyasamy</a>
+                <a href="../../license">Copyright © 2020 Balamurugan Periyasamy</a>
             
         
 
@@ -1160,7 +1240,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
         
             <a href="https://itch_io_id.itch.io" rel=me target="_blank">
-                <img class="icon" src="../img/itch.io.svg" alt="itch.io" />
+                <img class="icon" src="../../img/itch.io.svg" alt="itch.io" />
             </a>
         
 
@@ -1168,31 +1248,31 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
         
             <a href="https://www.instagram.com/instagram_id" rel=me target="_blank">
-                <img class="icon" src="../img/instagram.svg" alt="instagram" />
+                <img class="icon" src="../../img/instagram.svg" alt="instagram" />
             </a>
         
 
         
             <a href="https://facebook.com/facebook_id" rel=me target="_blank">
-                <img class="icon" src="../img/facebook.svg" alt="facebook" />
+                <img class="icon" src="../../img/facebook.svg" alt="facebook" />
             </a>
         
 
         
             <a href="https://github.com/example" rel=me target="_blank">
-                <img class="icon" src="../img/github.svg" alt="github" />
+                <img class="icon" src="../../img/github.svg" alt="github" />
             </a>
         
 
         
             <a href="https://twitter.com/example" rel=me target="_blank">
-                <img class="icon" src="../img/twitter.svg" alt="twitter" />
+                <img class="icon" src="../../img/twitter.svg" alt="twitter" />
             </a>
         
 
         
             <a href="https://www.linkedin.com/in/john-example-aa80ue8%c3%a8d" rel=me target="_blank">
-                <img class="icon" src="../img/linkedin.svg" alt="linkedin" />
+                <img class="icon" src="../../img/linkedin.svg" alt="linkedin" />
             </a>
         
 
@@ -1200,13 +1280,13 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
         
             <a href="mailto:you@example.com">
-                <img class="icon" src="../img/email.svg" alt="email" />
+                <img class="icon" src="../../img/email.svg" alt="email" />
             </a>
         
 
         
-            <a href="../index.xml">
-                <img class="icon" src="../img/rss.svg" alt="rss" />
+            <a href="../../index.xml">
+                <img class="icon" src="../../img/rss.svg" alt="rss" />
             </a>
         
 
@@ -1226,16 +1306,16 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
 
 
 
-  <script src="../js/highlight.min.js" defer></script>
+  <script src="../../js/highlight.min.js" defer></script>
   
 
 
 
-  <script src="../js/progressively.min.js" defer></script>
+  <script src="../../js/progressively.min.js" defer></script>
 
 
 
-  <script src="../js/social-share-kit.min.js" defer></script>
+  <script src="../../js/social-share-kit.min.js" defer></script>
 
 
 

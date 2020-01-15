@@ -17,7 +17,8 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/xgboost-intro/</guid>
-      <description></description>
+      <description>XGBoost is a decision tree algorithm used in most of the top winning solutions in kaggle. XGBoost is better than scikit GBM model as XGBoost is sparse aware and approximate greedy algorithm.
+What is approximate greedy algo? Exact greedy algorithm tries to do all possible splits on all the features.</description>
     </item>
     
     <item>

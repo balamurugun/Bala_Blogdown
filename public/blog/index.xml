@@ -6,82 +6,19 @@
     <description>Recent content in Blog on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2015 20:29:37 -0700</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>StatLearning with Zero Code and Equation</title>
-      <link>/blog/statlearning/</link>
-      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      <title>Projects</title>
+      <link>/blog/projects/</link>
+      <pubDate>Wed, 19 Aug 2015 20:29:37 -0700</pubDate>
       
-      <guid>/blog/statlearning/</guid>
-      <description>My aim over this course is to provide notes on course Stastical Learning with no code or equation.
-Introduction to Regression models
-#Overview of Statistical Learning
-Let us set out to predict Salary(Y) based on Experience, Education and Martial Status(really?)(Bunch of Xs) Regression equation is defined as function of these features plus an error value which is not captured by the model. Bearuty of regression is Obviousoly to reduce the error rate for any new predction and/or define the existing relation between feature and target.</description>
-    </item>
-    
-    <item>
-      <title>How to test stastical significance?</title>
-      <link>/blog/statsignificance/</link>
-      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/statsignificance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>/blog/excel/</link>
-      <pubDate>Tue, 20 Nov 2018 22:45:20 +0530</pubDate>
-      
-      <guid>/blog/excel/</guid>
-      <description>Excel is indispensable for two reasons: Easy for business users Goto tool for many years so tough to move away Best User friendly CURD (Create, Udpate, Read and Delete) tool ever built(in my opinion)
-However excel seriously lacks below: A C I Frequent crash and ability to start from where it was left(Durability)
-Interesting links on excel:
-http://veekaybee.github.io/2018/09/08/excel/ http://www.eusprig.org/horror-stories.htm</description>
-    </item>
-    
-    <item>
-      <title>Data Science Career Capital</title>
-      <link>/blog/data-science-career-capital/</link>
-      <pubDate>Wed, 14 Nov 2018 23:02:02 +0530</pubDate>
-      
-      <guid>/blog/data-science-career-capital/</guid>
-      <description>I am a big believer in Cal Newport/Steve Martin&#39;s philosophy of one should get too good to be ignored. How can one get build their skill set? Cal Newport answer is building a deep work habit for x hours. This is a lead measure to achieve your future goal of to be a better data scientist.
-Who is a best data scientist? One who creates a product that directly contributes to increasing revenue or cutting cost.</description>
-    </item>
-    
-    <item>
-      <title>How to do too good to be ignored Data Science</title>
-      <link>/blog/how-to-do-too-good-to-be-ignored-data-science/</link>
-      <pubDate>Sat, 03 Nov 2018 21:59:04 +0530</pubDate>
-      
-      <guid>/blog/how-to-do-too-good-to-be-ignored-data-science/</guid>
-      <description>Data science is the art of converting business problem to data problem to data solution to business solution as a quote goes.
-Doing sophisticated Data science work sincerely and removing the expectations of result will not help. Data science should aim for atleast one of the below:
- Increase revenue Reduce cost Better forecast Remove complexity Help someone to do these effectively with analysis  Above all one should garner the respect of the stakeholders</description>
-    </item>
-    
-    <item>
-      <title>2018 10 27 Hello World</title>
-      <link>/blog/2018-10-27-hello-world/</link>
-      <pubDate>Sat, 27 Oct 2018 11:39:34 +0530</pubDate>
-      
-      <guid>/blog/2018-10-27-hello-world/</guid>
-      <description>##Hello World</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>/blog/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
-We&#39;ll start with creating a new site with a very basic template.</description>
+      <guid>/blog/projects/</guid>
+      <description>In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don&#39;t want something.
+A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005.</description>
     </item>
     
   </channel>
