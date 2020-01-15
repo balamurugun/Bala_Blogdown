@@ -2,6 +2,6 @@
 title = "Home"
 +++
 
-_This is the home page. It will display the blog section if there is one, and a text before._
+_Hey ! Welcome to the Balamurugan's Blog_
 
-Hey ! Welcome to the Balamurugan's Blog
+Take a look around my journals on datascience,learnings and about me.
