@@ -1,5 +1,5 @@
 ---
-title: Weekly Reading 26 April 2020
+title: Sunday Latte - 26 April 2020
 author: Balamurugan
 date: '2020-04-25'
 slug: weekly-reading-25-april-2020
@@ -10,10 +10,9 @@ hacker_news_id: ''
 lobsters_id: ''
 meta_img: /images/image.jpg
 ---
-Here are few pointers from last week readings
+Here are few good articles from last week readings
 
-#[Career advice for people with bad luck
-](https://chiefofstuff.substack.com/p/career-advice-for-people-with-bad)
+# [Career advice for people with bad luck](https://chiefofstuff.substack.com/p/career-advice-for-people-with-bad)
 
 
 + Politics emerge when the players believe the game is zero sum. 
@@ -22,14 +21,13 @@ Here are few pointers from last week readings
 
 Give a full read, worth it
 
-#[How to overcome mental laziness
-](https://news.ycombinator.com/item?id=22919697) <br />
+# [How to overcome mental laziness](https://news.ycombinator.com/item?id=22919697) <br />
 
 
-If you are reading this newsletter at first short and you have less than 5 tabs in your browser you don't need them :)
+If you have already reached reading till this, you don't need them :)
 Few gems from the conversation:
 
-+Stop being so goal focused and instead become habit focused. You don't want to accomplish some big goal, all you want to do is do fun stuff that makes you a better person. As a result of that, you'll probably accomplish some cool goals.
++ Stop being so goal focused and instead become habit focused. You don't want to accomplish some big goal, all you want to do is do fun stuff that makes you a better person. As a result of that, you'll probably accomplish some cool goals.
 
 + Some helpful tools are reminders, taking notes, reviewing prior decisions, and advice from other people
 
@@ -38,11 +36,10 @@ Few gems from the conversation:
 + 3sec rule: If you want to do something, don't give yourself time to come up with an excuse not to, because you will convince yourself.
 
 
+# Others
 
-#Few Other Interesting links
+[Goldman Sachs Lists Buy And Sell Stock Ideas Amid Market Downcycle](https://www.bloombergquint.com/markets/goldman-sachs-lists-buy-and-sell-stock-ideas-amid-market-downcycle)
 
-###[Goldman Sachs Lists Buy And Sell Stock Ideas Amid Market Downcycle]
-(https://www.bloombergquint.com/markets/goldman-sachs-lists-buy-and-sell-stock-ideas-amid-market-downcycle)
+### Aha....{{< tweet 1254069494680621056 >}} 
 
-###[Board games to kill time](https://masilotti.com/play-board-games-online/)
-
+### The End
