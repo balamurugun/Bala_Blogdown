@@ -1,5 +1,6 @@
-baseurl = "https://balamurugan.netlify.com/"
+baseurl = "/"
 theme = "cocoa-eh-hugo-theme"
+googleAnalytics = "UA-164591013-1"
 builddrafts = true
 canonifyurls = true
 contentdir = "content"
