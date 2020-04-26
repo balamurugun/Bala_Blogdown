@@ -17,7 +17,7 @@ Here are few good articles from last week readings
 
 + Politics emerge when the players believe the game is zero sum. 
 + Try not to learn the wrong habits.
-+ [Failure I call living](https://www.youtube.com/channel/UC3CrrMeVRLNa3ODsKJMOQwg)
++ [Failure I call living](https://www.youtube.com/watch?v=dlvZtXTEMug)
 
 Give a full read, worth it
 
