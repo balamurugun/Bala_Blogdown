@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on BALAMURUGAN PERIYASAMY</title>
+    <link>/data-science/</link>
+    <description>Recent content in Data Science on BALAMURUGAN PERIYASAMY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>M5 Prediction Baseline building - Step by Step</title>
+      <link>/data-science/m5-prediction-baseline/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/data-science/m5-prediction-baseline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categorical Variables</title>
+      <link>/data-science/categorical-variables/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/data-science/categorical-variables/</guid>
+      <description>what is a categorical variable?
+Any variable that is not numeric is a categorical value. Machine learning models can understand only numberics. All other data formats should be converted to a number including time.
+what are ordinal variables and label encoding? Ordinal variables have a clear ranking like customer rating scale of poor,average and excellent . Ordinal variables can be endoced using a technique called Lebel encoding. label the variables in the linear order eg:or,average and excellent converts to 1,2 and 3</description>
+    </item>
+    
+  </channel>
+</rss>
