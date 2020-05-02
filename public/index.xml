@@ -6,31 +6,31 @@
     <description>Recent content on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sunday Latte - 26 April 2020</title>
-      <link>/newsletter/weekly-reading-25-april-2020/</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Sunday Latte - 03 MAY 2020</title>
+      <link>/news-letter/sunday-latte-03-may-2020/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/newsletter/weekly-reading-25-april-2020/</guid>
-      <description>Here are few good articles from last week readings
-Career advice for people with bad luck  Politics emerge when the players believe the game is zero sum. Try not to learn the wrong habits. Failure I call living  Give a full read, worth it
-How to overcome mental laziness  If you have already reached reading till this, you don&#39;t need them :) Few gems from the conversation:</description>
+      <guid>/news-letter/sunday-latte-03-may-2020/</guid>
+      <description>Guess maximum possible loss and profit made in Nifty this year? Answers at the bottom.
+Here are the intereting things I came across the web last week:
+Why are stock markets when world is going down? Link  Markets are smart in punishing the impacted companies(Exxon) and rewarding others(Amazon) Market is optimistic which doesnt tie well with reality yet  Can you trust Covid19 models? Link  Models are tough especially when input is dynamic A small change of R_0, viral spread rate, from 2.</description>
     </item>
     
     <item>
-      <title>Categorical Variables</title>
-      <link>/datascience/categorical-variables/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Sunday Latte - 26 April 2020</title>
+      <link>/news-letter/weekly-reading-25-april-2020/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/datascience/categorical-variables/</guid>
-      <description>what is a categorical variable?
-Any variable that is not numeric is a categorical value. Machine learning models can understand only numberics. All other data formats should be converted to a number including time.
-what are ordinal variables and label encoding? Ordinal variables have a clear ranking like customer rating scale of poor,average and excellent . Ordinal variables can be endoced using a technique called Lebel encoding. label the variables in the linear order eg:or,average and excellent converts to 1,2 and 3</description>
+      <guid>/news-letter/weekly-reading-25-april-2020/</guid>
+      <description>Here are few good articles from last week readings
+Career advice for people with bad luck  Politics emerge when the players believe the game is zero sum. Try not to learn the wrong habits. Failure I call living  Give a full read, worth it
+How to overcome mental laziness  If you have already reached reading till this, you don&#39;t need them :) Few gems from the conversation:</description>
     </item>
     
     <item>
@@ -39,18 +39,6 @@ what are ordinal variables and label encoding? Ordinal variables have a clear ra
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a Datascientist trying to get hold on insight and predictions.
-I am a Datascientist trying to get hold on insight and predictions..
- I am a Datascientist trying to get hold on insight and predictions.
- I am a Datascientist trying to get hold on insight and predictions.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/applied-ml/about/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/applied-ml/about/</guid>
       <description>I am a Datascientist trying to get hold on insight and predictions.
 I am a Datascientist trying to get hold on insight and predictions..
  I am a Datascientist trying to get hold on insight and predictions.
