@@ -4,17 +4,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news-letter/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news-letter/sunday-latte-10-may-2020/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,6 +14,16 @@
   
   <url>
     <loc>/data-science/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news-letter/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news-letter/sunday-latte-10-may-2020/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
