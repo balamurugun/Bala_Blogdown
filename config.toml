@@ -1,4 +1,4 @@
-baseurl = "https://balamurugan.netlify.app/"
+baseurl = "/"
 theme = "cocoa-eh-hugo-theme"
 googleAnalytics = "UA-164591013-1"
 builddrafts = true
@@ -11,7 +11,7 @@ author = "Bala"
 title = "BALAMURUGAN PERIYASAMY"
 disqusshortname = "balaa"
 pluralizelisttitles = false
-relativeurls = false
+relativeurls = true
 
 [permalinks]
 blog = "blog/:slug/"
