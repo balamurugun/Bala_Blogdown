@@ -11,7 +11,7 @@ author = "Bala"
 title = "BALAMURUGAN PERIYASAMY"
 disqusshortname = "balaa"
 pluralizelisttitles = false
-relativeurls = true
+relativeurls = false
 
 [permalinks]
 blog = "blog/:slug/"
