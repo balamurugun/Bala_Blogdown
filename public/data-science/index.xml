@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on BALAMURUGAN PERIYASAMY</title>
-    <link>/data-science/</link>
+    <link>https://balamurugan.netlify.com/data-science/</link>
     <description>Recent content in Data Science on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/data-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://balamurugan.netlify.com/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cheat Sheet</title>
-      <link>/data-science/cheat-sheet/</link>
+      <link>https://balamurugan.netlify.com/data-science/cheat-sheet/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/data-science/cheat-sheet/</guid>
+      <guid>https://balamurugan.netlify.com/data-science/cheat-sheet/</guid>
       <description>Database  Ask HN: What are some examples of good database schema designs?[https://news.ycombinator.com/item?id=22324691]  </description>
     </item>
     
     <item>
       <title>URL Gazing</title>
-      <link>/data-science/url-gazing/</link>
+      <link>https://balamurugan.netlify.com/data-science/url-gazing/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/data-science/url-gazing/</guid>
+      <guid>https://balamurugan.netlify.com/data-science/url-gazing/</guid>
       <description>#Mental model The Map Is Not the Territory/Menu is not the Meal [https://fs.blog/2015/11/map-and-territory/]</description>
     </item>
     
