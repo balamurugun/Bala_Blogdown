@@ -1,7 +1,7 @@
 ---
 title: Sunday Latte-12 July 20
 author: Balamurugan
-date: '2020-07-12'
+date: '2020-07-11'
 slug: sunday-latte-12-july-20
 categories: []
 tags: []
