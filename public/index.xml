@@ -6,10 +6,101 @@
     <description>Recent content on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Jungle: Size, Tech and Salary</title>
+      <link>/post/kaggle-survey/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kaggle-survey/</guid>
+      <description>We are set to explore the Kaggle 2020 survey for insights on what is the difference between working for a large firm vs a small firm, what is the next tech to learn and how can Data Scientists better their salaries.
+Table of contents 1 2 3
+The first question we are tackling is what are the differences encountered in a large firm vs a small firm in data science?</description>
+    </item>
+    
+    <item>
+      <title>Sunday Latte</title>
+      <link>/post/sunday-latte/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sunday-latte/</guid>
+      <description>https://calpaterson.com/fraud.html Best defence agaisnt scams and frauds is to get ,as the author calls, intellectual vaccination by getting repeated exposure to benign, non-functional specimens.
+Suppose you&amp;rsquo;re on a game show, and you&amp;rsquo;re given a choice of three doors. Behind one door is a car; behind the others, goats. You pick a door &amp;ndash; say, No. 1 &amp;ndash; and the host, who knows what&amp;rsquo;s behind the doors, opens another door &amp;ndash; say, No.</description>
+    </item>
+    
+    <item>
+      <title>IT Career</title>
+      <link>/self-qunatified/it-career/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/self-qunatified/it-career/</guid>
+      <description>How can I be an impressive data scientist?
+ Get too good that they cant ignore Have an impressive portfolio Have a faimiliarity with Algorothimic skills Projects&amp;gt;Competition&amp;gt;Courses  How to start in kaggle? I am lost
+Start by imitating. Take up a notebook and learn it till T. Write that fro scrtch. One advise I received is never copy a notebook. Have your own flow and try to integrate there</description>
+    </item>
+    
+    <item>
+      <title>Self Quantified</title>
+      <link>/self-qunatified/self-quantified/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/self-qunatified/self-quantified/</guid>
+      <description>Self Quantified
+ Eating Well Exercise/Play   </description>
+    </item>
+    
+    <item>
+      <title>Building ML</title>
+      <link>/ml-factory/book-building-ml/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/ml-factory/book-building-ml/</guid>
+      <description>Contents
+Natural Language Processing: One of the exciting areas of Machine Learning is Natural Language Processing. In particular, Machines that can read and take actions like a trading bot or onboarding clients are going to ubiquitous. Soon we will be chatting with bots and thanking the bots(turing test!)
+Concepts:</description>
+    </item>
+    
+    <item>
+      <title>Python Advanced concepts</title>
+      <link>/resources/python-advanced-concepts/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/python-advanced-concepts/</guid>
+      <description>Lambda:</description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/ml-factory/nlp/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/ml-factory/nlp/</guid>
+      <description>What are the impressive appplicaitons of NLP?
+Explain Bayes rule using mask saving you from the virus? A good way to test supersition is our Bayers rule. You think you have a bad day(X) when you spot a black cat(Y)(Hypothesis)P(X|Y) So what next to calcualte
+ Base rate: What is you rprobability of having a bad day? Evidence rarity: What is the inverse of probability of spotting a black cat? Relevanace: What is the probility of spotting a black cat on a bad day P(Y|X)  </description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/monetizing-data/test/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/monetizing-data/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XXX Use cases of Machine learning</title>
+      <link>/monetizing-data/xxx-use-cases-of-machine-learning/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/monetizing-data/xxx-use-cases-of-machine-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sunday Latte - 10 MAY 2020</title>
@@ -22,20 +113,30 @@ Bitcoing is halving.So what? Link  Bitcoin block reward will decrease from 12.5 
     </item>
     
     <item>
+      <title>Sunday Latte - 10 MAY 2020</title>
+      <link>/news-letter/sunday-latte-10-may-2020/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news-letter/sunday-latte-10-may-2020/</guid>
+      <description>Here are the intereting things last week:
+Bitcoing is halving.So what? Link  Bitcoin block reward will decrease from 12.5 to 6.25 coins from tomorrow  Ask HN: Name one idea that changed your l Tweet of the week&amp;hellip;. The End </description>
+    </item>
+    
+    <item>
       <title>Cheat Sheet</title>
-      <link>/data-science/cheat-sheet/</link>
+      <link>/resources/cheat-sheet/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/data-science/cheat-sheet/</guid>
+      <guid>/resources/cheat-sheet/</guid>
       <description>Database  Ask HN: What are some examples of good database schema designs?[https://news.ycombinator.com/item?id=22324691]  </description>
     </item>
     
     <item>
       <title>URL Gazing</title>
-      <link>/data-science/url-gazing/</link>
+      <link>/resources/url-gazing/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/data-science/url-gazing/</guid>
+      <guid>/resources/url-gazing/</guid>
       <description>#Mental model The Map Is Not the Territory/Menu is not the Meal [https://fs.blog/2015/11/map-and-territory/]</description>
     </item>
     

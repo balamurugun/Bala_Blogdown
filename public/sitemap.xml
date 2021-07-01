@@ -4,7 +4,77 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/kaggle-survey/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/sunday-latte/</loc>
+    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self-qunatified/it-career/</loc>
+    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self-qunatified/self-quantified/</loc>
+    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/self-qunatified/</loc>
+    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ml-factory/book-building-ml/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ml-factory/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/python-advanced-concepts/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/monetizing-data/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ml-factory/nlp/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/monetizing-data/test/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/monetizing-data/xxx-use-cases-of-machine-learning/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +88,17 @@
   </url>
   
   <url>
-    <loc>/data-science/cheat-sheet/</loc>
+    <loc>/news-letter/sunday-latte-10-may-2020/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/cheat-sheet/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/data-science/</loc>
-    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-science/url-gazing/</loc>
+    <loc>/resources/url-gazing/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
