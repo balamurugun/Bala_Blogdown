@@ -11,8 +11,9 @@ lobsters_id: ''
 meta_img: /images/image.jpg
 ---
 ![](/post/kaggle-survey_files/carlos-muza-hpjSkU2UYSU-unsplash.jpg)
+<sub>credit:unsplash.com</sub>
 
-# Data Jungle: Size, Tech and Salary
+# Data Science Jungle: Large firm or Small Firm; AWS or GCP; Countries with best salaries based on Kaggle 2020 Survey
 
 We are set to explore the Kaggle 2020 survey for insights on what is the difference between working for a large firm vs a small firm, what is the next tech to learn and how can Data Scientists better their salaries.
 
@@ -72,15 +73,14 @@ Want to build something from ML models from scratch? Goto small firms
 Are you better off in places with smooth sailing ML models over cloud? Goto large firms
 Based on the learning wishes, Google Cloud will be a dominant force in the future.
 Want a better cost of living data salary? Head to USA or second best to UAE.
-Python is not a major influencer in salaries as it is already widely used. 
+Python is not a major influencer in salaries as it is already widely used.<br>
 
+Code behind this analysis can be found in  [Github](https://github.com/in-balamurugan/Kaggle-2020-Survey)
 
-
-   
-
-
-
-
+## References<br>
+1. [https://www.kaggle.com/joeypp/cost-of-living-numbeo-dataset](https://www.kaggle.com/joeypp/cost-of-living-numbeo-dataset)
+2. [https://www.kaggle.com/spitfire2nd/enthusiast-to-data-professional-what-changes/](https://www.kaggle.com/spitfire2nd/enthusiast-to-data-professional-what-changes/)
+3. [https://www.kaggle.com/kailex/education-languages-and-salary](https://www.kaggle.com/kailex/education-languages-and-salary)
 
 
 
