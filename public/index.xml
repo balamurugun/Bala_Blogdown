@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Billion (Indian) User Table</title>
       <link>/post/the-billion-indian-user-table/</link>
       <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
@@ -33,129 +42,64 @@ Large or Small firm The first question we are tackling is what are the differenc
     </item>
     
     <item>
-      <title>Sunday Latte</title>
-      <link>/post/sunday-latte/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Sunday Latte-12 July 20</title>
+      <link>/post/sunday-latte-12-july-20/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/sunday-latte/</guid>
-      <description>https://calpaterson.com/fraud.html Best defence agaisnt scams and frauds is to get ,as the author calls, intellectual vaccination by getting repeated exposure to benign, non-functional specimens.
-Suppose you&amp;rsquo;re on a game show, and you&amp;rsquo;re given a choice of three doors. Behind one door is a car; behind the others, goats. You pick a door &amp;ndash; say, No. 1 &amp;ndash; and the host, who knows what&amp;rsquo;s behind the doors, opens another door &amp;ndash; say, No.</description>
+      <guid>/post/sunday-latte-12-july-20/</guid>
+      <description>Below is the transcript of my recent Toastmaster speech. Let me know if you disagree!
+In the early 1980s, a black student writes a letter ,“Mom, I am left with only $20 of cash. Please deposit some cash in my account and send some stamps or free food coupons”. How do you think his life would have panned out now? Cut to 2020, he is the worth $2 billion and his records are untouched since he retired from basketball 20 years back.</description>
     </item>
     
     <item>
-      <title>IT Career</title>
-      <link>/self-qunatified/it-career/</link>
-      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <title>Sunday Latte - 07-Jun-20</title>
+      <link>/post/sunday-latte-07-jun-2020/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/self-qunatified/it-career/</guid>
-      <description>How can I be an impressive data scientist?
- Get too good that they cant ignore Have an impressive portfolio Have a faimiliarity with Algorothimic skills Projects&amp;gt;Competition&amp;gt;Courses  How to start in kaggle? I am lost
-Start by imitating. Take up a notebook and learn it till T. Write that fro scrtch. One advise I received is never copy a notebook. Have your own flow and try to integrate there</description>
+      <guid>/post/sunday-latte-07-jun-2020/</guid>
+      <description>Here are the few interesting things I came across the web this week.
+Which category of mutual funds even the worst performer in the last one year return is 9% investing in relatively safe assets? Answer in the last section.
+Effects Link Hawthorne effect: Modifying action if someone is observing
+John Henry effect: In an experiment, if group A is compared with other preferentially treated group B, members of group A actively work harder to overcome the &amp;ldquo;disadvantage&amp;rdquo;.</description>
     </item>
     
     <item>
-      <title>Self Quantified</title>
-      <link>/self-qunatified/self-quantified/</link>
-      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <title>Sunday Latte - 31 MAY 2020</title>
+      <link>/post/sunday-latte-31-may-2020/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/self-qunatified/self-quantified/</guid>
-      <description>Self Quantified
- Eating Well Exercise/Play   </description>
+      <guid>/post/sunday-latte-31-may-2020/</guid>
+      <description>&amp;ldquo;Next Wednesday’s meeting has been moved forward two days. What day is Wednesday’s meeting now?”Answer at the bottom
+Hugging saint Link Amma aka Hugging saint from Kerala is famous for her hugs and whisper in ears. Now there is a ban on hugging and darshan in her ashram due to covid. Who said pivoting is only for startups?
+American Factory - Documentary I watched recently Link  This documentary produced by Obamas won Oscars last year.</description>
     </item>
     
     <item>
-      <title>Building ML</title>
-      <link>/ml-factory/book-building-ml/</link>
-      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <title>Sunday Latte - 17 MAY 2020</title>
+      <link>/post/sunday-latte-17-may-2020/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/ml-factory/book-building-ml/</guid>
-      <description>Contents
-Natural Language Processing: One of the exciting areas of Machine Learning is Natural Language Processing. In particular, Machines that can read and take actions like a trading bot or onboarding clients are going to ubiquitous. Soon we will be chatting with bots and thanking the bots(turing test!)
-Concepts:</description>
-    </item>
-    
-    <item>
-      <title>Python Advanced concepts</title>
-      <link>/resources/python-advanced-concepts/</link>
-      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/python-advanced-concepts/</guid>
-      <description>Lambda:</description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>/ml-factory/nlp/</link>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/ml-factory/nlp/</guid>
-      <description>What are the impressive appplicaitons of NLP?
-Explain Bayes rule using mask saving you from the virus? A good way to test supersition is our Bayers rule. You think you have a bad day(X) when you spot a black cat(Y)(Hypothesis)P(X|Y) So what next to calcualte
- Base rate: What is you rprobability of having a bad day? Evidence rarity: What is the inverse of probability of spotting a black cat? Relevanace: What is the probility of spotting a black cat on a bad day P(Y|X)  </description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>/monetizing-data/test/</link>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/monetizing-data/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XXX Use cases of Machine learning</title>
-      <link>/monetizing-data/xxx-use-cases-of-machine-learning/</link>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/monetizing-data/xxx-use-cases-of-machine-learning/</guid>
-      <description></description>
+      <guid>/post/sunday-latte-17-may-2020/</guid>
+      <description>Guess Zoom is bigger than how many world&amp;rsquo;s biggest airlines combined. Answer at the bottom.
+Procrastination Link  Why? &amp;ldquo;Task is boring,difficult or we’re worried about failing&amp;rdquo; Effects? &amp;ldquo;Host of adverse mental and physical health consequences, including anxiety and depression, poor health such as colds and flu, and even more serious conditions like cardiovascular disease.&amp;quot; How to overcame? The article recommends as said in frozen 2, &amp;ldquo;Do the next tiny right thing&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Sunday Latte - 10 MAY 2020</title>
-      <link>/news-letter/sunday-latte-10-may-2020/</link>
+      <link>/post/sunday-latte-10-may-2020/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/news-letter/sunday-latte-10-may-2020/</guid>
+      <guid>/post/sunday-latte-10-may-2020/</guid>
       <description>Here are the intereting things I came across the web last week:
 Bitcoing is halving.So what? Link  Bitcoin block reward will decrease from 12.5 to 6.25 coins from tomorrow When last two times this happened, Bitcoin increased 8,500% in 2013 and almot 3,000% in 2016. Yes, percentages are double checked and this rise was over 12-18 months period after halving. Bitocoin crashed around 40%($7.9k to 4.9k) in a March and recovered 100%($9.</description>
     </item>
     
     <item>
-      <title>Sunday Latte - 10 MAY 2020</title>
-      <link>/news-letter/sunday-latte-10-may-2020/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/news-letter/sunday-latte-10-may-2020/</guid>
-      <description>Here are the intereting things last week:
-Bitcoing is halving.So what? Link  Bitcoin block reward will decrease from 12.5 to 6.25 coins from tomorrow  Ask HN: Name one idea that changed your l Tweet of the week&amp;hellip;. The End </description>
-    </item>
-    
-    <item>
-      <title>Cheat Sheet</title>
-      <link>/resources/cheat-sheet/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/cheat-sheet/</guid>
-      <description>Database  Ask HN: What are some examples of good database schema designs?[https://news.ycombinator.com/item?id=22324691]  </description>
-    </item>
-    
-    <item>
-      <title>URL Gazing</title>
-      <link>/resources/url-gazing/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/url-gazing/</guid>
-      <description>#Mental model The Map Is Not the Territory/Menu is not the Meal [https://fs.blog/2015/11/map-and-territory/]</description>
-    </item>
-    
-    <item>
       <title>Sunday Latte - 03 MAY 2020</title>
-      <link>/news-letter/sunday-latte-03-may-2020/</link>
+      <link>/post/sunday-latte-03-may-2020/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/news-letter/sunday-latte-03-may-2020/</guid>
+      <guid>/post/sunday-latte-03-may-2020/</guid>
       <description>Guess maximum possible loss and profit made in Nifty this year? Answers at the bottom.
 Here are the intereting things I came across the web last week:
 Why are stock markets when world is going down? Link  Markets are smart in punishing the impacted companies(Exxon) and rewarding others(Amazon) Market is optimistic which doesnt tie well with reality yet  Can you trust Covid19 models? Link  Models are tough especially when input is dynamic A small change of R_0, viral spread rate, from 2.</description>
@@ -163,45 +107,13 @@ Why are stock markets when world is going down? Link  Markets are smart in punis
     
     <item>
       <title>Sunday Latte - 26 April 2020</title>
-      <link>/news-letter/weekly-reading-25-april-2020/</link>
+      <link>/post/weekly-reading-25-april-2020/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/news-letter/weekly-reading-25-april-2020/</guid>
+      <guid>/post/weekly-reading-25-april-2020/</guid>
       <description>Here are few good articles from last week readings
 Career advice for people with bad luck  Politics emerge when the players believe the game is zero sum. Try not to learn the wrong habits. Failure I call living  Give a full read, worth it
 How to overcome mental laziness  If you have already reached reading till this, you don&amp;rsquo;t need them :) Few gems from the conversation:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description> Coming Soon
- </description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/</guid>
-      <description>Hey ! Welcome to the Balamurugan&amp;rsquo;s Blog
-Take a look around my journals on datascience,learnings and about me.</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>/license/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/license/</guid>
-      <description>You can use this page to put a license on the contents of your blog, like so:
- The MIT License (MIT)
-Copyright (c) 2020 Balamurugan Periyasamy
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
     </item>
     
   </channel>
