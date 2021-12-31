@@ -6,10 +6,20 @@
     <description>Recent content in Post on BALAMURUGAN PERIYASAMY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sparkify - Churn Analysis</title>
+      <link>/post/sparkify-churn-analysis/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sparkify-churn-analysis/</guid>
+      <description>credit:unsplash.comSparkify Goal Sparkify corp tracks Monthly Acitve User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without cancelling the subsciption and leaving the platform). Reducing the churn will improve revenue through premium from subscription users and ad ad revenues played to free and premuium subscribers.
+Objective of Model Aim is to predict the users who are most like to churn.</description>
+    </item>
     
     <item>
       <title>The Billion (Indian) User Table</title>

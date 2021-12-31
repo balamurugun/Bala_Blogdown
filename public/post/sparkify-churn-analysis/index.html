@@ -12,9 +12,9 @@
 <meta property="og:site_name" content="BALAMURUGAN PERIYASAMY" />
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/sunday-latte-31-may-2020/" />
-<meta property="og:title" content="Sunday Latte - 31 MAY 2020" />
-<meta property="twitter:title" content="Sunday Latte - 31 MAY 2020">
+<meta property="og:url" content="/post/sparkify-churn-analysis/" />
+<meta property="og:title" content="Sparkify - Churn Analysis" />
+<meta property="twitter:title" content="Sparkify - Churn Analysis">
 
     <meta property="og:image" content="//images/image.jpg">
     <meta property="twitter:card" content="summary">
@@ -26,10 +26,10 @@
 <title>
 
 
-     BALAMURUGAN PERIYASAMY - Sunday Latte - 31 MAY 2020 
+     BALAMURUGAN PERIYASAMY - Sparkify - Churn Analysis 
 
 </title>
-<link rel="canonical" href="../../post/sunday-latte-31-may-2020/">
+<link rel="canonical" href="../../post/sparkify-churn-analysis/">
 
 
 <style media="screen">
@@ -1105,7 +1105,7 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             <div class="page-heading">
 
     
-    Sunday Latte - 31 MAY 2020
+    Sparkify - Churn Analysis
     
 
 </div>
@@ -1113,21 +1113,31 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
             <div class="markdown">
                 
     
-    <p><em>&ldquo;Next Wednesday’s meeting has been moved forward two days. What day is Wednesday’s meeting now?”Answer at the bottom</em></p>
-<h3 id="hugging-saint-linkhttpsmumbaimirrorindiatimescomotherssunday-readhold-that-thoughtarticleshow75924579cms">Hugging saint <a href="https://mumbaimirror.indiatimes.com/others/sunday-read/hold-that-thought/articleshow/75924579.cms">Link</a></h3>
-<p>Amma aka Hugging saint from Kerala is famous for her hugs and whisper in ears. Now there is a ban on hugging and darshan in her ashram due to covid.
-Who said pivoting is only for startups?</p>
-<h3 id="american-factory---documentary-i-watched-recently-linkhttpswwwnetflixcomwatch81090071">American Factory - Documentary I watched recently <a href="https://www.netflix.com/watch/81090071">Link</a></h3>
+    <p><img src="../../post/2021-11-28-sparkify-churn-analysis_files/music.jpeg" alt="">
+<!-- raw HTML omitted -->credit:unsplash.com<!-- raw HTML omitted --></p>
+<h1 id="sparkify-goal">Sparkify Goal</h1>
+<p>Sparkify corp tracks Monthly Acitve User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without cancelling the subsciption and leaving the platform). Reducing the churn will improve revenue through premium  from subscription users and ad ad revenues played to free and premuium subscribers.</p>
+<h1 id="objective-of-model">Objective of Model</h1>
+<p>Aim is to predict the users who are most like to churn. so, we can incentivize them to stay in the platform.</p>
+<h1 id="evaluation-metric">Evaluation metric:</h1>
+<p>AUC is the evaluation metric and performs better than accuracy and F1 for imbalanced data set. Area Under Curve(AUC) is the measure of how well the classifier is classfing the churn and not churn users. This is arrived as area of probability curve plotting True Positive Rates(TPR) against False Postive Rates(FPR). <!-- raw HTML omitted -->
+Higher the AUC better the abiliyt of model to classify positive and negative. If AUC=1, Classifier perfectly classifies both the classes. If AUC=0, Classifier is as good as random prediction. If AUC=0, Classifier predicts accurately incorrectly( inverting the prediction will help us in achieve our result)</p>
+<h1 id="data-scope">Data Scope:</h1>
+<p>Session details with their actions of 22k users are provided for time period between 2018-10-01 and 2018-12-01. A user is marked as Churn if the user had cancelled his membership with Sparkify(tracked through Cancellation confirmation page).</p>
+<h1 id="data-quality">Data Quality:</h1>
+<p>Null values in Registraion and userId are dropped for this exercise.Timestamps areconverted to date values.</p>
+<h1 id="data-observations">Data observations</h1>
+<p>Dataset had 26.25 million rows of user session logs amouting to 12.5 GB making it feasible to group and summarise only in a dsitributed environment Spark. Total number of users is 22,277. 22%(5003 users) had churned.Obsdays are exlcuded from the dataset as they may cause data leakage as most of the churned user will not have observations for complete duration and would have left midway.</p>
+<h1 id="base-model">Base model</h1>
+<p>Baseline model used is logistic regression with mean AUC of 0.55. Running a untuned xgboost model yields mean AUC = 0.989. Hyperparameter tuning is done with optuna.</p>
+<h1 id="final-model-and-hyperparameter-optimasatoin">Final model and hyperparameter optimasatoin</h1>
+<p>Final model yields mean AUC of
+Important features are explained using SHAP package. Features nDowngrade and registDuration come out to be more important features. nDowngrade and
+registDuration points to problems in our recommendation engine and new user experience respectively.</p>
+<h1 id="further-improvements">Further Improvements</h1>
 <ul>
-<li>This documentary produced by Obamas won Oscars last year. This documentary candidly captures the tension between the management run by a Chinese billionaire and US workers in a revived Ohio glass factory. Documentary compares and contrasts working conditions and culture in the US and China.</li>
-<li>There is a scene capturing US supervisors&rsquo; visit to Chinese factory. Workers start their work saying, &ldquo;If we stand still, we move backward&rdquo;.Chinese supervisor pokes his US counterpart,&ldquo;I am hearing US factory is not doing well. How can you if you have eight days off in a month? Here workers have only a day or two in a month&rdquo;</li>
-<li>Documentary ends with a brief to the chairman how mechanical arms are replacing some of their workers.</li>
+<li>Additional Dataset on music taste and liked artists can help us to naill down the perfect music catalogue</li>
 </ul>
-<h3 id="interesting-links">Interesting Links</h3>
-<p><a href="https://jasonevanish.com/bookshelf/">Book shelf</a> and <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTNzVEa3-yGqK2AEri-drmF_miBIpH8DwW1infiLgzmi0lU8uqeyzRQ81lbuuZ_GWqH0ZT6LR3Yfrli/pubhtml?gid=1871542133&amp;single=true">Comprehensive list of Indian index funds and etfs</a></p>
-<p><em>Answer: <a href="https://www.bbc.com/future/article/20200520-why-lockdown-life-feels-like-its-going-faster">If your answer is Friday, you think of yourself as someone moving forward through time.If your answer is Monday, you think as time coming towards you.</a></em></p>
-<p>Please keep sharing your feedback.</p>
-<p>The End</p>
 
 
             </div>
