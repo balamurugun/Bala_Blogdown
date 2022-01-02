@@ -1116,27 +1116,57 @@ div.main .content .markdown pre, div.main .content .markdown pre code {
     <p><img src="../../post/2021-11-28-sparkify-churn-analysis_files/music.jpeg" alt="">
 <!-- raw HTML omitted -->credit:unsplash.com<!-- raw HTML omitted --></p>
 <h1 id="sparkify-goal">Sparkify Goal</h1>
-<p>Sparkify corp tracks Monthly Acitve User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without cancelling the subsciption and leaving the platform). Reducing the churn will improve revenue through premium  from subscription users and ad ad revenues played to free and premuium subscribers.</p>
+<p>Sparkify corp tracks Monthly Active User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without leaving the platform). Reducing the churn will improve revenue through premium from subscription users and ad revenues played to free and premium subscribers.</p>
 <h1 id="objective-of-model">Objective of Model</h1>
-<p>Aim is to predict the users who are most like to churn. so, we can incentivize them to stay in the platform.</p>
+<p>The aim of the model is to predict the users who are expected to churn based on their behaviour. So, we can incentivize them to stay on the platform</p>
+<ul>
+<li>Access the session log details of the users</li>
+<li>Clean the data to remove null users Ids and null Registration</li>
+<li>Summarise the user behaviour and create new features</li>
+<li>Visualise the user behaviour</li>
+<li>Build a baseline model and tune the hyperparameters to arrive the best performing final model based on the evaluation metrics AUC</li>
+</ul>
+<p>Code-behind this analysis can be found in  <a href="https://github.com/in-balamurugan/sparkify_user_churn">Github</a></p>
 <h1 id="evaluation-metric">Evaluation metric:</h1>
-<p>AUC is the evaluation metric and performs better than accuracy and F1 for imbalanced data set. Area Under Curve(AUC) is the measure of how well the classifier is classfing the churn and not churn users. This is arrived as area of probability curve plotting True Positive Rates(TPR) against False Postive Rates(FPR). <!-- raw HTML omitted -->
-Higher the AUC better the abiliyt of model to classify positive and negative. If AUC=1, Classifier perfectly classifies both the classes. If AUC=0, Classifier is as good as random prediction. If AUC=0, Classifier predicts accurately incorrectly( inverting the prediction will help us in achieve our result)</p>
+<p>AUC is the evaluation metric and performs better than accuracy and F1 for the imbalanced data set. Area Under Curve(AUC) is the measure of how well the classifier is classifying the churn and not churn users. This arrives as the area of probability curve plotting True Positive Rates(TPR) against False Positive Rates(FPR). <!-- raw HTML omitted -->
+Higher the AUC better the ability of the model to classify positive and negative. If AUC=1, the classifier perfectly classifies both the classes. If AUC=0, Classifier is as good as random prediction. If AUC=0, the Classifier predicts accurately incorrectly( inverting the prediction will help us in achieving our result)</p>
 <h1 id="data-scope">Data Scope:</h1>
-<p>Session details with their actions of 22k users are provided for time period between 2018-10-01 and 2018-12-01. A user is marked as Churn if the user had cancelled his membership with Sparkify(tracked through Cancellation confirmation page).</p>
+<p>Session details with the actions of 22k users are provided for tge time period between 2018-10-01 and 2018-12-01. A user is marked as Churn if the user had cancelled his membership with Sparkify(tracked through the Cancellation confirmation page).</p>
 <h1 id="data-quality">Data Quality:</h1>
-<p>Null values in Registraion and userId are dropped for this exercise.Timestamps areconverted to date values.</p>
+<p>Null values in Registration and userId are dropped for this exercise. Timestamps are converted to date values.</p>
 <h1 id="data-observations">Data observations</h1>
-<p>Dataset had 26.25 million rows of user session logs amouting to 12.5 GB making it feasible to group and summarise only in a dsitributed environment Spark. Total number of users is 22,277. 22%(5003 users) had churned.Obsdays are exlcuded from the dataset as they may cause data leakage as most of the churned user will not have observations for complete duration and would have left midway.</p>
+<p>Dataset had 26.25 million rows of user session logs amounting to 12.5 GB making it feasible to the group and summarise only in a distributed environment Spark. The total number of users is 22,277. 22%(5003 users) had churned. Obsdays are excluded from the dataset as they may cause data leakage as most of the churned users will not have observations for the complete duration and would have left midway.</p>
+<p><img src="../../post/2021-11-28-sparkify-churn-analysis_files/churned_users.png" alt=""></p>
+<p>#Hyperparameter Optimisation
+Hyperparameter is performed on XGBoost model through framework Optuna.
+Here are the  parameters and ranges teseted:</p>
+<ul>
+<li>max_depth (1 to 9)</li>
+<li>min_child_weight (2 to 10)</li>
+<li>eta aka learning rate (1e-8 to 1)</li>
+<li>gamma (1e-8 to 1)</li>
+</ul>
 <h1 id="base-model">Base model</h1>
-<p>Baseline model used is logistic regression with mean AUC of 0.55. Running a untuned xgboost model yields mean AUC = 0.989. Hyperparameter tuning is done with optuna.</p>
-<h1 id="final-model-and-hyperparameter-optimasatoin">Final model and hyperparameter optimasatoin</h1>
-<p>Final model yields mean AUC of
-Important features are explained using SHAP package. Features nDowngrade and registDuration come out to be more important features. nDowngrade and
-registDuration points to problems in our recommendation engine and new user experience respectively.</p>
+<p>Below is a summary of all modesl
+<img src="../../post/2021-11-28-sparkify-churn-analysis_files/summary.png" alt=""></p>
+<h1 id="final-model">Final model</h1>
+<p>Final model yields a mean AUC of 0.97.
+Important features are explained using SHAP package. Features nSongs and avgDailyDowngrade come out to be more important features.A user who listened to fewer songs and downgraded from paid tier to free tier is most likely to churn.
+<img src="../../post/2021-11-28-sparkify-churn-analysis_files/imp_features.png" alt=""></p>
+<h1 id="summary">Summary</h1>
+<p>The Model helps to find out users expected to churn and incentivize them to stay back with platform.</p>
 <h1 id="further-improvements">Further Improvements</h1>
 <ul>
-<li>Additional Dataset on music taste and liked artists can help us to naill down the perfect music catalogue</li>
+<li>Additional Dataset on music taste and liked artists can help us to naill down the perfect music catalog.</li>
+</ul>
+<h1 id="challenges">Challenges</h1>
+<ul>
+<li>Dataset time period is short so tough to test out how it will hold on real-world.</li>
+</ul>
+<h1 id="credits">Credits</h1>
+<ul>
+<li>Udacity</li>
+<li>Book: Approaching Almost Any Machine learning problem</li>
 </ul>
 
 
@@ -1156,7 +1186,7 @@ registDuration points to problems in our recommendation engine and new user expe
 
         
             
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/">Copyright © 2021 Balamurugan Periyasamy</a>
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/">© 2022 creativecommons</a>
             
         
 
