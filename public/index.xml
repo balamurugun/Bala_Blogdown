@@ -17,8 +17,8 @@
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/sparkify-churn-analysis/</guid>
-      <description>credit:unsplash.comSparkify Goal Sparkify corp tracks Monthly Active User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without leaving the platform). Reducing the churn will improve revenue through premium from subscription users and ad revenues played to free and premium subscribers.
-Objective of Model The aim of the model is to predict the users who are expected to churn based on their behaviour.</description>
+      <description>credit:unsplash.comProject Overview Sparkify is a music streaming company. Sparkify tracks Monthly Active User(MAU) as its flagship metric. To keep MAU growing it needs to acquire new users and reduce churn(keep the existing users happy without leaving the platform). Reducing the churn will improve revenue through premium and ad revenues.
+Problem Statement The goal of the project is to predict the users who are expected to churn based on their behaviour. So, we can incentivize them to stay on the platform</description>
     </item>
     
     <item>
